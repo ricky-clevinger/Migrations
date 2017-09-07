@@ -1,0 +1,4 @@
+CREATE TABLE "User" 
+   (	"ID" VARCHAR2(20 BYTE), 
+	"Name" VARCHAR2(20 BYTE)
+   ) ;
