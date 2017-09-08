@@ -1,5 +1,5 @@
 --------------------------------------------------------
---  File created - Thursday-September-07-2017   
+--  File created - Friday-September-08-2017   
 --------------------------------------------------------
 --------------------------------------------------------
 --  DDL for Table Book
@@ -23,3 +23,15 @@
   PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 
  NOCOMPRESS LOGGING
   TABLESPACE "USERS" ;
+--------------------------------------------------------
+--  DDL for Table User
+--------------------------------------------------------
+
+  CREATE TABLE "ORACLE"."User" 
+   (	"ID" VARCHAR2(20 BYTE), 
+	"Name" VARCHAR2(20 BYTE)
+   ) SEGMENT CREATION DEFERRED 
+  PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 
+ NOCOMPRESS LOGGING
+  TABLESPACE "USERS" ;
+
